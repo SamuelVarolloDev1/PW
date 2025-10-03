@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.esquerda {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.direita {
+    width: 50%;
+    background-color: #e6fcff;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 1px solid #ccc;
+}
+
+.direita h1 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+.grupo {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #000;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    outline: none;
+}
+
+button.entrar {
+    margin-top: 20px;
+    padding: 15px;
+    width: 100%;
+    background-color: #ff9999;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+button.entrar:hover {
+    background-color: #ff8080;
+}
+
+.esqueceu {
+    margin-top: 10px;
+    color: red;
+    font-size: 0.95em;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.cadastro {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.cadastro button {
+    margin-left: 10px;
+    padding: 6px 16px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cadastro button:hover {
+    background-color: #bbb;
+}

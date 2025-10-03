@@ -1,0 +1,17 @@
+{
+    "name": "etec/samuel",
+    "description": "Página de autenticação",
+    "type": "project",
+    "require": {
+        "twig/twig": "4.x-dev",
+        "coffeecode/router": "dev-master"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Samuel Varollo",
+            "email": "varollosamuel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
