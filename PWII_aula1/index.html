@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 PWII</title>
+    <script>
+        function testeDoOnLoad(){
+            alert("Executou depois que carregou tudo");
+        }
+        function somar(a, b){
+            return a + b;
+        }
+        function contaComplicada(a, b, c){
+            return somar(a+b) * c; 
+        }
+
+        function testeDeEscopo(){
+            let x = 10;
+            var y = 100;
+        }
+
+        testeDeEscopo();
+
+        alert(x);
+        alert(y);
+    </script>
+</head>
+<body onload="testeDoOnLoad()">
+    <script>
+        alert("Olá body");
+    </script>
+
+    <form action="#" method="get">
+        <label for="nome">Digite seu nome</label>
+        <input type="text" name="nome">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
