@@ -1,0 +1,25 @@
+{
+    "name": "etec/samuel",
+    "description": "Projeto de PWII",
+    "type": "project",
+    "require": {
+        "twig/twig": "^3.19",
+        "coffeecode/router": "^1.0.8"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Etec\\Samuel\\": "src/"
+        },
+        "files":[
+            "src/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Samuel",
+            "email": "varollosamuel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
